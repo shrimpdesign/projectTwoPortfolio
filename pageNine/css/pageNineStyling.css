@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a75f37;
+    margin: 5%;
+    padding-left: 5%;
+    padding-top: 13%;
+}
+
+p {
+    color: #d9b99f;
+    font-family: "fiesta";
+    font-size: 60px;
+}
+
+a {
+    color: #f2d6ce;
+    text-decoration: none;
+    font-family: "children books";
+    font-size: 80px;
+}
