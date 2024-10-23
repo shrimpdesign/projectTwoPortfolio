@@ -19,21 +19,22 @@ a {
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
+    padding-left: 10%;
 }
 .story{
-    transition-duration: 20s;
+    transition-duration: 4s;
 }
 
 /* mouse over link */
 .story:hover {
-    background-color: beige;
-    transform: rotate(8000deg);
+    /* background-color: #a75f37; */
+    transform: translate(-20em);
 }
 
 p {
     color: beige;
     font-family: "children books";
-    font-weight: 200;
+    font-weight: 100;
     font-size: 40px;
 
 }

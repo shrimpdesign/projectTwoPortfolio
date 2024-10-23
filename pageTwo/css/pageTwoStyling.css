@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2d6ce;
+    margin: 20%;
+    padding-left: 5%;
+}
+
+p {
+    color: rgb(72, 104, 105);;
+    font-family: "bloom";
+    font-size: 100px;
+}
+
+a {
+    color: #a75f37;
+    text-decoration: none;
+    font-family: "fiesta";
+    font-weight: 800;
+    font-size: 150px;
+}
