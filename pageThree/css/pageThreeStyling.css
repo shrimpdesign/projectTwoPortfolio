@@ -6,4 +6,22 @@
 
 body {
     background-color: #a75f37;
+    /* margin: 5%; */
+    padding-left: 15%;
+    padding-top: 23%;
+}
+
+p{
+    color: #f2d6ce;
+    font-family: "fiesta";
+    font-weight: 500;
+    font-size: 60px;
+}
+
+a{
+    color: #bae0da;
+    font-family: "children books";
+    font-weight: 200;
+    font-size: 80px;
+    text-decoration: none;
 }

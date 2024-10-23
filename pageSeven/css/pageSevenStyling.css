@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(72, 104, 105);
+}
+
+p {
+    color: #f2e7dd;
+    font-family: "children books";
+    font-size: 50px;
+}
+
+a {
+    color: #d9b99f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "bloom";
+    font-size: 80px;
+}
