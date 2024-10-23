@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    background-color: rgb(72, 104, 105);
+    /* background-color: rgb(72, 104, 105); */
+    background-image: radial-gradient(circle, #a75f37, rgb(72, 104, 105));
     margin: 10%;
     padding-left: 22%;
 }
-
 a {
     color: #f2d6ce;
     text-decoration: none;
@@ -24,17 +23,14 @@ a {
 .story{
     transition-duration: 4s;
 }
-
 /* mouse over link */
 .story:hover {
     /* background-color: #a75f37; */
-    transform: translate(-20em);
+    transform: translate(20em);
 }
-
 p {
     color: beige;
     font-family: "children books";
     font-weight: 100;
     font-size: 40px;
-
 }
