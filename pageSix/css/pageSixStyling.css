@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #f2e7dd;
+    /* background-color: #f2e7dd; */
+    background-image: radial-gradient(circle, #f2e7dd, #d9b99f);
     margin: 20%;
     padding-left: 5%;
 }
@@ -21,4 +22,32 @@ a {
     color: rgb(72, 104, 105);
     font-family: "children books";
     font-size: 80px;
+}
+
+#pageSix {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feel {
+    animation-name: feel;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes feel {
+    from {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+    to {
+        opacity: 100;
+        transform: scale(1);
+    }
 }

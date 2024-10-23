@@ -22,3 +22,18 @@ a {
     font-family: "fiesta";
     font-size: 90px;
 }
+
+.isolated {
+    transition-duration: 2s;
+}
+
+.isolated:hover{
+    transform: rotate(30deg) translateY(10em);
+}
+
+#pageEight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
