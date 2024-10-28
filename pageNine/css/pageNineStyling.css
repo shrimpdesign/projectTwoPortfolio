@@ -5,22 +5,25 @@
 }
 
 @font-face {
-    font-family: "fiesta";
-    src: url(../fonts/Fiesta-Bold.otf)format('opentype');
+    font-family: 'fiesta';
+    src: url(../fonts/Fiesta-Bold.otf)
+    format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "bloom";
-    src: url(../fonts/Bloom-Regular.otf) format('opentype');
+    font-family: 'bloom';
+    src: url(../fonts/Bloom-Regular.otf) 
+    format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "children books";
-    src: url(../fonts/Children\ Books\ Font\ by\ Kidsy\ Graphic.otf) format(opentype);
+    font-family: 'children books';
+    src: url(../fonts/Children\ Books\ Font\ by\ Kidsy\ Graphic.otf) 
+    format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,19 +38,19 @@ body {
 
 p {
     color: #d9b99f;
-    font-family: "fiesta";
+    font-family: 'fiesta';
     font-size: 30px;
 }
 
 a {
     color: #f2d6ce;
     text-decoration: none;
-    font-family: "children books";
+    font-family: 'children books';
     font-size: 90px;
 }
 
 .beck{
-    font-family: "jean moderno";
+    font-family: 'jean moderno';
     font-size: 18px;
     padding-top: 5%;
 }
