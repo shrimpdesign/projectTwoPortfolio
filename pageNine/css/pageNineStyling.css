@@ -6,21 +6,21 @@
 
 @font-face {
     font-family: "fiesta";
-    src: url(path/to/fonts/Fiesta-Bold.otf)format(opentype);
+    src: url(../fonts/Fiesta-Bold.otf)format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "bloom";
-    src: url(path/to/fonts/Bloom-Regular.otf) format(opentype);
+    src: url(../fonts/Bloom-Regular.otf) format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "children books";
-    src: url(path/to/ChildrenBooksFontbyKidsyGraphic.otf) format(opentype);
+    src: url(../fonts/Children\ Books\ Font\ by\ Kidsy\ Graphic.otf) format(opentype);
     font-weight: normal;
     font-style: normal;
 }
