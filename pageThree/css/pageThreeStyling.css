@@ -8,6 +8,30 @@ html {
     width: 100%;
 }
 
+@font-face {
+    font-family: 'fiesta';
+    src: url(../fonts/Fiesta-Bold.otf)
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bloom';
+    src: url(../fonts/Bloom-Regular.otf) 
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'children books';
+    src: url(../fonts/Children\ Books\ Font\ by\ Kidsy\ Graphic.otf) 
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     /* background-color: #a75f37; */
     background-image: radial-gradient(closest-side at 80% 55%,#f2d6ce,#a75f37);
@@ -18,14 +42,14 @@ body {
 
 p{
     color: #f2d6ce;
-    font-family: "fiesta";
+    font-family: 'fiesta';
     font-weight: 500;
     font-size: 60px;
 }
 
 a{
     color: #bae0da;
-    font-family: "children books";
+    font-family: 'children books';
     font-weight: 200;
     font-size: 80px;
     text-decoration: none;

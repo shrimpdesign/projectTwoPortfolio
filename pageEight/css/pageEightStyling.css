@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'fiesta';
+    src: url(../fonts/Fiesta-Bold.otf)
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bloom';
+    src: url(../fonts/Bloom-Regular.otf) 
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'children books';
+    src: url(../fonts/Children\ Books\ Font\ by\ Kidsy\ Graphic.otf) 
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #d9b99f;
     margin: 5%;
@@ -12,14 +36,14 @@ body {
 }
 p {
     color: rgb(72, 104, 105);
-    font-family: "bloom";
+    font-family: 'bloom';
     font-size: 80px;
 }
 
 a {
     color: #a75f37;
     text-decoration: none;
-    font-family: "fiesta";
+    font-family: 'fiesta';
     font-size: 90px;
 }
 
